@@ -24,11 +24,11 @@
 #
 
 proc swapp_get_name {} {
-    return "elf-bootloader";
+    return "SPI ELF bootloader";
 }
 
 proc swapp_get_description {} {
-    return "ELF first-stage bootloader for microblaze by Henrik Brix Andersen.";
+    return "SPI ELF first-stage bootloader for microblaze processors by Henrik Brix Andersen.";
 }
 
 proc swapp_is_supported_hw {} {
