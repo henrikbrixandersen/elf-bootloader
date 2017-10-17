@@ -1,5 +1,5 @@
 # SPI ELF Bootloader
-The SPI ELF Bootloader for Xilinx Microblaze processors can act as a first-stage bootloader (FSBL) for Xilinx Microblaze processors running either standalone application software, second-stage bootloaders, real-time operating systems (e.g. FreeRTOS) or or full-blown operating systems (e.g. GNU/Linux) in Executable and Linkable (ELF) Format.
+The SPI ELF Bootloader for Xilinx Microblaze processors can act as a first-stage bootloader (FSBL) for Xilinx Microblaze processors running either standalone application software, second-stage bootloaders, real-time operating systems (e.g. FreeRTOS) or or full-blown operating systems (e.g. GNU/Linux) in Executable and Linkable Format (ELF).
 
 ## Using the SPI ELF Bootloader
 The SPI ELF bootloader is intended to be instantiated as a repository from within the Xilinx SDK. It has been tested to work with Xilinx Vivado 2017.3.
