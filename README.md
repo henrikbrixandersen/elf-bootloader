@@ -1,20 +1,20 @@
-# elf-bootloader
-The SPI ELF bootloader for Xilinx Microblaze processors can act as a first-stage bootloader (FSBL) for Xilinx Microblaze processors running either standalone application software, real-time operating systems (e.g. FreeRTOS) or or full-blown operating systems (e.g. GNU/Linux) in Executable and Linkable (ELF) Format.
+# SPI ELF Bootloader
+The SPI ELF Bootloader for Xilinx Microblaze processors can act as a first-stage bootloader (FSBL) for Xilinx Microblaze processors running either standalone application software, second-stage bootloaders, real-time operating systems (e.g. FreeRTOS) or or full-blown operating systems (e.g. GNU/Linux) in Executable and Linkable (ELF) Format.
 
-## Using the ELF SPI bootloader
+## Using the SPI ELF Bootloader
 The SPI ELF bootloader is intended to be instantiated as a repository from within the Xilinx SDK. It has been tested to work with Xilinx Vivado 2017.3.
 
 * Launch Xilinx SDK
 * Choose *Repositories* from the *Xilinx* menu
-* Add a new local or global repository and point it to the top-level directory of elf-bootloader (the one containing this README.md file)
+* Add a new local or global repository and point it to the top-level directory of elf-bootloader (the one containing this *README.md* file)
 * Create a new standalone *Application Project* by using the *File* menu
 * Give it a meaningful name (e.g. fsbl) and click *Next*
-* Choose *elf-bootloader* under *Available Templates* and click *Finish*
+* Choose *SPI ELF Bootloader* under *Available Templates* and click *Finish*
 * Customize the generated *eb-config.h* file to match the SPI flash and flash address used in your project
 * Ensure the generated application is set to execute from the correct memory (e.g. local memory if bootloading an application to external DDR memory)
 
 # License
-The SPI ELF bootloader is available under the 2-clause BSD license:
+The SPI ELF Bootloader is available under the 2-clause BSD license:
 
 Copyright (c) 2017 Henrik Brix Andersen <henrik@brixandersen.dk>
 All rights reserved.

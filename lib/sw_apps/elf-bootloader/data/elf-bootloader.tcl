@@ -24,7 +24,7 @@
 #
 
 proc swapp_get_name {} {
-    return "SPI ELF bootloader";
+    return "SPI ELF Bootloader";
 }
 
 proc swapp_get_description {} {
