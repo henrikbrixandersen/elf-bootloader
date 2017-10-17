@@ -55,8 +55,18 @@ proc swapp_is_supported_sw {} {
     if { $os != "standalone"} {
         error "This application is supported only on the standalone Board Support Package.";
     }
+
+    return 1;
+}
+
+proc swapp_get_supported_processors {} {
+    return "microblaze";
+}
+
+proc swapp_get_supported_os {} {
+    return "standalone";
 }
 
 proc swapp_generate {} {
-
+    return;
 }
